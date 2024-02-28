@@ -1,0 +1,66 @@
+
+//+------------------------------------------------------------------+
+//|                                                  RelicusRoad MACD v2 MT5|
+//|                                      Copyright 2022, Forex Robot Easy Team|
+//|                                     https://www.forexroboteasy.com|
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                              Scalping Arrows|
+//+------------------------------------------------------------------+
+void ScalpingArrows()
+{
+    // Add code for Scalping Arrows feature here
+}
+
+//+------------------------------------------------------------------+
+//|                                              Reversal Arrows|
+//+------------------------------------------------------------------+
+void ReversalArrows()
+{
+    // Add code for Reversal Arrows feature here
+}
+
+//+------------------------------------------------------------------+
+//|                                              MAO Arrows|
+//+------------------------------------------------------------------+
+void MaoArrows()
+{
+    // Add code for MAO Arrows feature here
+}
+
+//+------------------------------------------------------------------+
+//|                                     RelicusRoad MACD v2 MT5 start function|
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Call the necessary functions here
+    ScalpingArrows();
+    ReversalArrows();
+    MaoArrows();
+}
+
+//+------------------------------------------------------------------+
+//|                                     RelicusRoad MACD v2 MT5 initialization function|
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Perform initialization tasks here
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                                     RelicusRoad MACD v2 MT5 deinitialization function|
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Perform deinitialization tasks here
+}
+
+//+------------------------------------------------------------------+
+//|                                     RelicusRoad MACD v2 MT5 tick function|
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add code for tick events here
+}
